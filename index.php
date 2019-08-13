@@ -56,7 +56,7 @@
 <div class="content">
     <h2>Add Contact</h2>
 
-    <p><a href="index_contact.php">Home </a> </p>
+    <p><a href="index.php">Home </a> </p>
 
     <div class="data">
         <form action=" " method="get" >

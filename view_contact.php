@@ -11,7 +11,7 @@ if(isset($_GET['id']) && $_GET['id']>0) {
                 <h2 class="text-center"><?php echo $user_info['title']." ".$user_info['fname']." ".$user_info['lname'];?></h2>
             </div>
         </div>
-        <p><a href="index_contact.php" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home" aria-hidden="true">  Home</a></p>
+        <p><a href="index.php" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home" aria-hidden="true">  Home</a></p>
 
         <table class="table table-bordered table-striped table-hover">
             <tr >

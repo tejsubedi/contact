@@ -37,7 +37,7 @@ if (isset($_POST['first_name']) && isset($_POST['last_name']) && isset($_POST['t
     /*Picture upload ends*/
 
     addUser($user_info);
-    header("location:index_contact.php");
+    header("location:index.php");
 }
 show_source(__FILE__);
 ?>
@@ -90,7 +90,7 @@ show_source(__FILE__);
 <div class="content">
     <h2>Add Contact</h2>
 
-    <p><a href="index_contact.php">Home </a> </p>
+    <p><a href="index.php">Home </a> </p>
 
     <form action="add_contact.php" method="post" enctype="multipart/form-data">
         <div class="data">
